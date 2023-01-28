@@ -616,4 +616,11 @@ button.b {
     p{
         font-size: 13px;
     }
+    
+    main section div.money_history div.bottom div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
 }
