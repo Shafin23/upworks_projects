@@ -1,0 +1,619 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header start------------------------------------------------------------------------ */
+header {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 40px;
+}
+
+header nav {
+
+    width: 100%;
+    height: auto;
+    background-color: #e4e6e7;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 100px;
+
+
+}
+
+header nav p {
+    display: inline-block;
+    font-family: "Poppins";
+    color: #7f989d;
+    margin: 0px;
+    width: 40%;
+    text-align: start;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+header nav img {
+    position: relative;
+
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h3 {
+    font-family: "Poppins";
+    width: 85%;
+    font-size: 40px;
+    margin: 0 auto;
+    color: #00313c;
+    font-weight: 600;
+
+
+}
+
+div.box{
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+
+
+/* main start=------------------------------------------------------------------ */
+
+
+main section {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 7fr 3fr;
+
+}
+
+main section div.left_side_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid #7f989d;
+    padding-right: 25px;
+
+}
+
+main section div.left_side_menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 55px;
+}
+
+main section div.left_side_menu ul li {
+    list-style: none;
+
+}
+
+main section div.left_side_menu ul li a {
+    text-decoration: none;
+    color: #7f989d;
+}
+
+main section div.left_side_menu h1 {
+    width: 90%;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Poppins";
+    color: #00313c;
+    margin-bottom: 13px;
+
+
+}
+
+
+main section div.left_side_menu div.box {
+    width: 90%;
+    border: 2px solid #fa9441;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main section div.left_side_menu div.box p {
+    text-align: center;
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+
+
+
+main section div.grid_a {
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    height: 300px;
+    gap: 20px;
+}
+
+main section div.grid_a div {
+    background-color: #f2f4f5;
+}
+
+main section div.grid_a div p.title {
+    background-color: #7f989d;
+    color: white;
+    font-family: "Poppins";
+    font-size: 13px;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+main section div.grid_a div article {
+    padding: 0px 15px 15px 15px;
+}
+
+main section div.grid_a div article p.top {
+    margin-top: 0px;
+    font-family: "Poppins";
+    color: #00313c
+}
+
+main section div.grid_a div article p.bottom {
+    color: #51727a;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+div.mid {
+    width: 100%;
+    height: 3px;
+    background-color: #ccd6d8;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+main section div.money_history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #f2f4f5;
+    width: 85%;
+    margin-top: 166px;
+}
+
+main section div.money_history div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px solid #116576;
+}
+
+div.price div p {
+    width: 100%;
+    margin: 0px 0px;
+    font-size: 13px;
+}
+
+div.price div h1.dollar {
+    width: 100%;
+
+}
+
+main section div.money_history div.top div div p {
+    text-align: left;
+    font-family: "Poppins";
+}
+
+.amount {
+    width: 15%;
+
+
+}
+
+main section div.money_history div.top div.amount section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Poppins";
+    color: #3d626b;
+}
+
+main section div.money_history div.top div.amount section.a {
+    margin-bottom: 10px;
+}
+
+main section div.money_history div.top div.amount section.a p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+main section div.money_history div.top div.amount section p,
+h2,
+h6 {
+    margin: 5px 0px;
+
+}
+
+.deep {
+    font-weight: 600;
+    color: #3d626b;
+}
+
+.amount section.b h2 {
+    font-weight: 500;
+    color: #00313c;
+    margin-top: 0px;
+
+}
+
+.amount section.b h2 {
+    font-weight: 600;
+    color: #00313c;
+    margin-bottom: 0px;
+
+}
+
+.amount section.b h6 {
+
+    margin-bottom: 0px;
+    color: #00313c;
+
+}
+
+main section div.money_history div.top div.digital_text {
+    width: 80%;
+}
+
+main section div.money_history div.top div.digital_text h1 {
+    color: #00313c;
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h1.dollar {
+    margin-left: 20px;
+}
+
+main section div.money_history div.top div.digital_text div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+main section div.money_history div.top div.digital_text div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+main section div.money_history div.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+main section div.money_history div.bottom div p.a {
+    color: #3d626b;
+    font-size: 13px;
+    font-family: "Poppins";
+}
+
+main section div.money_history div.bottom div p.b {
+    color: #22444d;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+
+
+
+
+
+
+
+/* order summery */
+main section div.order_summery {
+    padding: 20px;
+    background-color: #f2f4f5;
+
+
+}
+
+main section div.order_summery h1 {
+    color: #00313c;
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 33px;
+    margin: 0px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #99b3b8;
+}
+
+main section div.order_summery div.check_list article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section div.order_summery div.check_list article p.x {
+    font-family: "Poppins";
+}
+
+main section div.order_summery div.check_list article p.y {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #00313c;
+}
+
+div.xyz article {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    font-family: "Poppins";
+    color: #59696c;
+    font-size: 14;
+}
+
+div.xyz article p {
+    margin: 2px 0px;
+}
+
+main section div.order_summery div.check_list h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+p.text {
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #7f989d;
+
+}
+
+textarea {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #7f989d;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+
+button.a {
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 36px;
+    font-family: "Poppins";
+    border: none;
+    background-color: #00313c;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button.b {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 36px;
+    font-family: "Poppins";
+    border: 2px solid #00313c;
+    background-color: white;
+    color: #00313c;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:576px) {
+    header nav p {
+        width: 35%;
+        font-size: 15px;
+    }
+
+    header nav img {
+        width: 144px;
+
+    }
+
+    main section div.left_side_menu ul {
+        display: block;
+        padding-left: 5px;
+
+    }
+
+    main section div.left_side_menu ul li {
+        border-bottom: 1px solid gray;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    main section div.left_side_menu div.box {
+        display: none;
+    }
+
+    main section div.grid_a {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    main section {
+        display: grid;
+        grid-template-rows: 7fr 3fr;
+        grid-template-columns: 1fr;
+
+    }
+
+    main section div.money_history div.top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section div.money_history div.top div.digital_text div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section div.money_history div.bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section div.money_history {
+        width: 77%;
+        margin-top: 534px;
+    }
+
+    .amount {
+        width: 100%;
+    }
+
+    main section div.money_history div.top div.digital_text {
+        width: 100%;
+    }
+
+    main section div.money_history div.bottom div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    button.a {
+        width: 100%;
+        height: 66px;
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    button.b {
+        width: 100%;
+        height: 66px;
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    textarea {
+        width: 80%;
+        height: 66px;
+        font-size: 14px;
+    }
+
+    main section div.money_history {
+        margin-top: 51px;
+    }
+
+    main section div.order_summery {
+        margin: 24px auto;
+        width: 80%;
+    }
+
+    main section div.money_history {
+        margin-top: 552px;
+    }
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:1024px) {
+    main section div.left_side_menu div.box {
+        display: none;
+    }
+
+    main section div.money_history {
+        margin-top: 55vw;
+    }
+
+    main section div.money_history div.top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section div.money_history div.top div.digital_text {
+        width: 100%;
+    }
+
+    main section div.money_history div.top div.digital_text div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main section div.money_history div.top div.digital_text h1 {
+        width: 95%;
+    }
+    .amount {
+        width: 100%;
+    }
+    main section div.money_history div.bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    button.a, button.b{
+        padding: 0;
+        width: 26.45vw;
+        height: 50px;
+        font-size: 13px;
+    }
+    main section div.left_side_menu ul li a{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+}
