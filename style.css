@@ -642,7 +642,7 @@ p.last {
 
     main section div.money_history div.top {
         display: flex;
-        flex-direction: column;
+
     }
 
     main section div.money_history div.top div.digital_text {
@@ -650,7 +650,7 @@ p.last {
     }
 
     main section div.money_history div.top div.digital_text div {
-        flex-direction: column;
+
         width: 100%;
     }
 
@@ -691,4 +691,129 @@ p.last {
         align-items: flex-start;
         width: 100%;
     }
+
+    /* main section div.money_history div.top div.amount section{
+        position: relative;
+        right: 555px;
+        top: 15px;
+    } */
+
+    main section div.money_history div.top div.amount section.a {
+        position: relative;
+        top: -3.72px;
+        left: 115px;
+    }
+
+    main section div.money_history div.top div.amount section {
+        position: relative;
+        top: 95px;
+        right: 282px;
+    }
+
+    main section div.money_history div.top div.digital_text div {
+        width: 155%;
+    }
+
+    main section div.money_history div.top div.digital_text h1 {
+        width: 118%;
+    }
+
+    main section div.money_history div.top div.digital_text h1 {
+        position: relative;
+        left: 14px;
+    }
+
+    div.mid {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:850px) {
+    main section div.money_history div.top div.digital_text h1 {
+        margin-left: -14px;
+    }
+
+    main section div.money_history div.top div.digital_text h1 {
+        width: 148%;
+
+    }
+
+    main section div.money_history div.top div.amount section.b {
+        position: relative;
+        top: 82px;
+        right: 225px;
+    }
+
+    main section div.money_history div.top div.amount section.a {
+        position: relative;
+        top: -36.72px;
+        left: 133px;
+    }
+
+    main section div.money_history div.top div.digital_text div h1 {
+        position: relative;
+        left: 44px;
+    }
+
+    .amount section.b h6 {
+        position: relative;
+        left: 35px;
+    }
+    .amount section.b h2 {
+        position: relative;
+        left: 32px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* main section div.money_history div.top div.amount section.a {
+        position: relative;
+        top: 18px;
+        left: 33px;
+    
+} */
+
+}
+
+@media screen and (min-width:577px) and (max-width: 780px) {
+    main section div.money_history div.top div.digital_text h1 {
+        width: 112%;
+    }
+
+    main section div.money_history div.top div.digital_text div div h1 {
+        width: 111%;
+        left: 7px;
+        position: relative;
+        margin-right: -12px;
+    }
+
+    main section div.money_history div.top div.amount section.a {
+        left: 59px;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    main section div.money_history div.top div.digital_text div {
+        width: 213%;
+    }
+
+    .amount section.b h2 {
+        position: relative;
+        left: 27px;
+    }
+    .amount section.b h6 {
+        position: relative;
+        left: 27px;
+    }
+
 }
