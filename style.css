@@ -613,6 +613,13 @@ p.last {
 
 }
 
+@media screen and (min-width:320px) and (max-width:370px){
+    main section div.money_history div.top div.amount section.a{
+        font-size: 9px;
+    }
+    
+}
+
 
 
 /* for tablet */
