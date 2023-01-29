@@ -349,6 +349,7 @@ main section div.money_history div.bottom div p.b {
 main section div.order_summery {
     padding: 20px;
     background-color: #f2f4f5;
+    height: 55%;
 
 
 }
@@ -510,6 +511,7 @@ p.last {
 
     }
 
+
     main section div.money_history div.top {
         display: flex;
         flex-direction: column;
@@ -545,7 +547,7 @@ p.last {
         flex-direction: column-reverse;
     }
 
-    main section div.money_history div.top div.amount section.a{
+    main section div.money_history div.top div.amount section.a {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
@@ -557,14 +559,15 @@ p.last {
         margin-left: 33.854vw;
         margin-top: -83px;
     }
-    
-    br{
+
+    br {
         display: none;
     }
-    .item{
+
+    .item {
         margin-left: 4.86vw;
     }
-    
+
 
 
     main section div.money_history div.top div.digital_text {
@@ -611,13 +614,17 @@ p.last {
         margin-top: 552px;
     }
 
+    main section div.order_summery {
+        height: 100%;
+    }
+
 }
 
-@media screen and (min-width:320px) and (max-width:370px){
-    main section div.money_history div.top div.amount section.a{
+@media screen and (min-width:320px) and (max-width:370px) {
+    main section div.money_history div.top div.amount section.a {
         font-size: 9px;
     }
-    
+
 }
 
 
@@ -656,8 +663,9 @@ p.last {
     }
 
     main section div.money_history div.bottom {
-        flex-direction: column;
-        align-items: flex-start;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     button.a,
@@ -678,8 +686,9 @@ p.last {
 
     main section div.money_history div.bottom div {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
         width: 100%;
     }
 }
