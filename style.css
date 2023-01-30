@@ -759,6 +759,7 @@ p.last {
         position: relative;
         left: 35px;
     }
+
     .amount section.b h2 {
         position: relative;
         left: 32px;
@@ -811,9 +812,19 @@ p.last {
         position: relative;
         left: 27px;
     }
+
     .amount section.b h6 {
         position: relative;
         left: 27px;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 676px) {
+    main section div.money_history div.top div.amount section.b {
+        position: relative;
+        top: 121px;
+        right: 195px;
     }
 
 }
